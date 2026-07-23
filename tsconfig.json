@@ -7,7 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "outDir": "dist",
+    "outDir": "main",
     "rootDir": "."
   },
   "include": ["**/*.ts"],
