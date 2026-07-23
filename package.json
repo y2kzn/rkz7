@@ -2,12 +2,12 @@
   "name": "backbone64",
   "version": "1.0.0",
   "description": "a",
-  "main": "src/dist/index.ts",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node src/dist/index.ts",
-    "dev": "ts-node --project tsconfig.json src/dist/index.ts",
-    "dev:watch": "nodemon -x \"ts-node --project tsconfig.json src/dist/index.ts\"",
+    "start": "npm run build && node index.ts",
+    "dev": "ts-node --project tsconfig.json node index.ts",
+    "dev:watch": "nodemon -x \"ts-node --project tsconfig.json index.ts\"",
     "check": "tsc --noEmit",
     "lint": "prettier --check ./Source && eslint ./Source --ext .ts",
     "format": "prettier --write ./Source && eslint ./Source --ext .ts --fix"
